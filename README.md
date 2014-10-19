@@ -31,4 +31,4 @@ log.error(new Error('this is a error').stack);
 
 ## License
 
-MIT © [Kevin Mårtensson](https://github.com/kevva)
+MIT © [imagemin](https://github.com/imagemin)
