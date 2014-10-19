@@ -1,0 +1,31 @@
+{
+  "name": "imagemin-log",
+  "version": "1.0.0",
+  "description": "The log utility used in imagemin related projects",
+  "license": "MIT",
+  "repository": "imagemin/imagemin-log",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "imagemin",
+    "log"
+  ],
+  "dependencies": {
+    "stream-log": "^0.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
