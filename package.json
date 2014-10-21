@@ -23,7 +23,7 @@
     "log"
   ],
   "dependencies": {
-    "stream-log": "^0.2.0"
+    "stream-log": "kevva/stream-log#longest"
   },
   "devDependencies": {
     "ava": "^0.0.4"
