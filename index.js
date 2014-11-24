@@ -1,6 +1,6 @@
 'use strict';
 
-var logSymbols = require('log-symbols');
+var figures = require('figures');
 var Squeak = require('squeak');
 
 /**
@@ -15,24 +15,24 @@ var log = new Squeak({separator: ' '});
 
 log.type('info', {
 	color: 'cyan',
-	prefix: logSymbols.info
+	prefix: figures.info
 });
 
 log.type('warn', {
 	color: 'yellow',
-	prefix: logSymbols.warn
+	prefix: figures.warning
 });
 
 log.type('success', {
 	color: 'green',
-	prefix: logSymbols.success
+	prefix: figures.tick
 }, function () {
 	log.end();
 });
 
 log.type('error', {
 	color: 'red',
-	prefix: logSymbols.error
+	prefix: figures.cross
 }, function () {
 	log.end();
 });
