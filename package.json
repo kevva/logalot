@@ -1,6 +1,6 @@
 {
   "name": "imagemin-log",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "The log utility used in imagemin related projects",
   "license": "MIT",
   "repository": "imagemin/imagemin-log",
