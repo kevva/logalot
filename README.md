@@ -19,10 +19,10 @@ log.success('this is a success message');
 log.error(new Error('this is a error').stack);
 
 /*
-     info : this is a message
-     warn : this is a warning
-  success : this is a success message
-    error : Error: this is an error
+  ℹ this is a message
+  ⚠ this is a warning
+  ✔ this is a success message
+  ✖ Error: this is an error
     at ChildProcess.exithandler (child_process.js:648:15)
     at ChildProcess.emit (events.js:98:17)
  */

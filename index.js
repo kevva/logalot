@@ -1,28 +1,39 @@
 'use strict';
 
-var Log = require('stream-log');
+var logSymbols = require('log-symbols');
+var Squeak = require('squeak');
 
 /**
- * Initialize `Log`
+ * Initialize `log`
  */
 
-var log = new Log(process.stderr, 2)
-	.type('info', '36m')
-	.type('warn', '33m');
+var log = new Squeak({separator: ' '});
 
 /**
- * Success
+ * Add types
  */
 
-log.type('success', '32m', function () {
+log.type('info', {
+	color: 'cyan',
+	prefix: logSymbols.info
+});
+
+log.type('warn', {
+	color: 'yellow',
+	prefix: logSymbols.warn
+});
+
+log.type('success', {
+	color: 'green',
+	prefix: logSymbols.success
+}, function () {
 	log.end();
 });
 
-/**
- * Error
- */
-
-log.type('error', '31m', function () {
+log.type('error', {
+	color: 'red',
+	prefix: logSymbols.error
+}, function () {
 	log.end();
 });
 

@@ -23,7 +23,8 @@
     "log"
   ],
   "dependencies": {
-    "stream-log": "^0.2.1"
+    "log-symbols": "^1.0.1",
+    "squeak": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.0.4"
