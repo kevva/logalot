@@ -1,17 +1,17 @@
-# imagemin-log [![Build Status](http://img.shields.io/travis/imagemin/imagemin-log.svg?style=flat)](https://travis-ci.org/imagemin/imagemin-log)
+# logalot [![Build Status](http://img.shields.io/travis/imagemin/logalot.svg?style=flat)](https://travis-ci.org/imagemin/logalot)
 
-> The log utility used in imagemin related projects
+> Tiny log utility
 
 ## Install
 
 ```sh
-$ npm install --save imagemin-log
+$ npm install --save logalot
 ```
 
 ## Usage
 
 ```js
-var log = require('imagemin-log');
+var log = require('logalot');
 
 log.info('this is a message');
 log.warn('this is a warning');
