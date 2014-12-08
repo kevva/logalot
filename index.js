@@ -26,15 +26,11 @@ log.type('warn', {
 log.type('success', {
 	color: 'green',
 	prefix: figures.tick
-}, function () {
-	log.end();
 });
 
 log.type('error', {
 	color: 'red',
 	prefix: figures.cross
-}, function () {
-	log.end();
 });
 
 /**
