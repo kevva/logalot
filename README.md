@@ -1,4 +1,4 @@
-# logalot [![Build Status](http://img.shields.io/travis/imagemin/logalot.svg?style=flat)](https://travis-ci.org/imagemin/logalot)
+# logalot [![Build Status](http://img.shields.io/travis/kevva/logalot.svg?style=flat)](https://travis-ci.org/kevva/logalot)
 
 > Tiny log utility
 
