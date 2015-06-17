@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "description": "Tiny log utility",
   "license": "MIT",
-  "repository": "imagemin/logalot",
+  "repository": "kevva/logalot",
   "author": {
     "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
